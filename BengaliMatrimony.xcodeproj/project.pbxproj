@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CAE00021C0538E6009F826A /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAE00011C0538E6009F826A /* Login.swift */; };
+		1CAE00041C053903009F826A /* NewsFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAE00031C053903009F826A /* NewsFeed.swift */; };
+		1CAE00131C053B09009F826A /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CAE00121C053B09009F826A /* Accounts.framework */; };
+		1CAE00151C053B10009F826A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CAE00141C053B10009F826A /* AudioToolbox.framework */; };
+		1CAE00171C053B1C009F826A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CAE00161C053B1C009F826A /* CFNetwork.framework */; };
+		1CAE00191C053B23009F826A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CAE00181C053B23009F826A /* QuartzCore.framework */; };
+		1CAE001B1C053B2B009F826A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CAE001A1C053B2B009F826A /* Security.framework */; };
+		1CAE001D1C053B33009F826A /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CAE001C1C053B33009F826A /* Social.framework */; };
+		1CAE001F1C053B3A009F826A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CAE001E1C053B3A009F826A /* StoreKit.framework */; };
+		1CAE00211C053B46009F826A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CAE00201C053B46009F826A /* SystemConfiguration.framework */; };
+		1CAE00231C053B7B009F826A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CAE00221C053B7B009F826A /* libz.tbd */; };
+		1CAE00251C053B8A009F826A /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CAE00241C053B8A009F826A /* libsqlite3.tbd */; };
+		1CAE00281C053CEE009F826A /* datingappbackgrond.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1CAE00271C053CEE009F826A /* datingappbackgrond.jpg */; };
+		1CAE002B1C053E0C009F826A /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAE002A1C053E0C009F826A /* Signup.swift */; };
+		1CAE00331C054064009F826A /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CAE002D1C054064009F826A /* Bolts.framework */; };
+		1CAE00341C054064009F826A /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CAE002E1C054064009F826A /* Parse.framework */; };
+		1CAE00351C054064009F826A /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CAE002F1C054064009F826A /* ParseFacebookUtils.framework */; };
+		1CAE00361C054064009F826A /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CAE00301C054064009F826A /* ParseFacebookUtilsV4.framework */; };
+		1CAE00371C054064009F826A /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CAE00311C054064009F826A /* ParseTwitterUtils.framework */; };
+		1CAE00381C054064009F826A /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CAE00321C054064009F826A /* ParseUI.framework */; };
+		1CAEFFD41C0538A0009F826A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAEFFD31C0538A0009F826A /* AppDelegate.swift */; };
+		1CAEFFD61C0538A0009F826A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAEFFD51C0538A0009F826A /* ViewController.swift */; };
+		1CAEFFD91C0538A0009F826A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CAEFFD71C0538A0009F826A /* Main.storyboard */; };
+		1CAEFFDB1C0538A0009F826A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CAEFFDA1C0538A0009F826A /* Assets.xcassets */; };
+		1CAEFFDE1C0538A0009F826A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CAEFFDC1C0538A0009F826A /* LaunchScreen.storyboard */; };
+		1CAEFFE91C0538A1009F826A /* BengaliMatrimonyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAEFFE81C0538A1009F826A /* BengaliMatrimonyTests.swift */; };
+		1CAEFFF41C0538A1009F826A /* BengaliMatrimonyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAEFFF31C0538A1009F826A /* BengaliMatrimonyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CAEFFE51C0538A1009F826A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CAEFFC81C0538A0009F826A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CAEFFCF1C0538A0009F826A;
+			remoteInfo = BengaliMatrimony;
+		};
+		1CAEFFF01C0538A1009F826A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CAEFFC81C0538A0009F826A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CAEFFCF1C0538A0009F826A;
+			remoteInfo = BengaliMatrimony;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CAE00011C0538E6009F826A /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		1CAE00031C053903009F826A /* NewsFeed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsFeed.swift; sourceTree = "<group>"; };
+		1CAE00121C053B09009F826A /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		1CAE00141C053B10009F826A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1CAE00161C053B1C009F826A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		1CAE00181C053B23009F826A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1CAE001A1C053B2B009F826A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1CAE001C1C053B33009F826A /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		1CAE001E1C053B3A009F826A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		1CAE00201C053B46009F826A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1CAE00221C053B7B009F826A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		1CAE00241C053B8A009F826A /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		1CAE00271C053CEE009F826A /* datingappbackgrond.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = datingappbackgrond.jpg; sourceTree = "<group>"; };
+		1CAE002A1C053E0C009F826A /* Signup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
+		1CAE002D1C054064009F826A /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		1CAE002E1C054064009F826A /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		1CAE002F1C054064009F826A /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		1CAE00301C054064009F826A /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		1CAE00311C054064009F826A /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseTwitterUtils.framework; sourceTree = "<group>"; };
+		1CAE00321C054064009F826A /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		1CAEFFD01C0538A0009F826A /* BengaliMatrimony.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BengaliMatrimony.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CAEFFD31C0538A0009F826A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1CAEFFD51C0538A0009F826A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1CAEFFD81C0538A0009F826A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1CAEFFDA1C0538A0009F826A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1CAEFFDD1C0538A0009F826A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1CAEFFDF1C0538A0009F826A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CAEFFE41C0538A1009F826A /* BengaliMatrimonyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BengaliMatrimonyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CAEFFE81C0538A1009F826A /* BengaliMatrimonyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BengaliMatrimonyTests.swift; sourceTree = "<group>"; };
+		1CAEFFEA1C0538A1009F826A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CAEFFEF1C0538A1009F826A /* BengaliMatrimonyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BengaliMatrimonyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CAEFFF31C0538A1009F826A /* BengaliMatrimonyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BengaliMatrimonyUITests.swift; sourceTree = "<group>"; };
+		1CAEFFF51C0538A1009F826A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CAEFFCD1C0538A0009F826A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CAE00251C053B8A009F826A /* libsqlite3.tbd in Frameworks */,
+				1CAE00231C053B7B009F826A /* libz.tbd in Frameworks */,
+				1CAE00361C054064009F826A /* ParseFacebookUtilsV4.framework in Frameworks */,
+				1CAE00211C053B46009F826A /* SystemConfiguration.framework in Frameworks */,
+				1CAE00371C054064009F826A /* ParseTwitterUtils.framework in Frameworks */,
+				1CAE001F1C053B3A009F826A /* StoreKit.framework in Frameworks */,
+				1CAE00381C054064009F826A /* ParseUI.framework in Frameworks */,
+				1CAE001D1C053B33009F826A /* Social.framework in Frameworks */,
+				1CAE001B1C053B2B009F826A /* Security.framework in Frameworks */,
+				1CAE00191C053B23009F826A /* QuartzCore.framework in Frameworks */,
+				1CAE00171C053B1C009F826A /* CFNetwork.framework in Frameworks */,
+				1CAE00331C054064009F826A /* Bolts.framework in Frameworks */,
+				1CAE00151C053B10009F826A /* AudioToolbox.framework in Frameworks */,
+				1CAE00341C054064009F826A /* Parse.framework in Frameworks */,
+				1CAE00131C053B09009F826A /* Accounts.framework in Frameworks */,
+				1CAE00351C054064009F826A /* ParseFacebookUtils.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CAEFFE11C0538A1009F826A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CAEFFEC1C0538A1009F826A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CAE00261C053BC1009F826A /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CAE00221C053B7B009F826A /* libz.tbd */,
+				1CAE00241C053B8A009F826A /* libsqlite3.tbd */,
+				1CAE002C1C054064009F826A /* parse-library-1.10.0 (2) */,
+				1CAE00141C053B10009F826A /* AudioToolbox.framework */,
+				1CAE00121C053B09009F826A /* Accounts.framework */,
+				1CAE00161C053B1C009F826A /* CFNetwork.framework */,
+				1CAE00181C053B23009F826A /* QuartzCore.framework */,
+				1CAE001C1C053B33009F826A /* Social.framework */,
+				1CAE001A1C053B2B009F826A /* Security.framework */,
+				1CAE001E1C053B3A009F826A /* StoreKit.framework */,
+				1CAE00201C053B46009F826A /* SystemConfiguration.framework */,
+			);
+			name = frameworks;
+			sourceTree = "<group>";
+		};
+		1CAE00291C053D25009F826A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1CAE00271C053CEE009F826A /* datingappbackgrond.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		1CAE002C1C054064009F826A /* parse-library-1.10.0 (2) */ = {
+			isa = PBXGroup;
+			children = (
+				1CAE002D1C054064009F826A /* Bolts.framework */,
+				1CAE002E1C054064009F826A /* Parse.framework */,
+				1CAE002F1C054064009F826A /* ParseFacebookUtils.framework */,
+				1CAE00301C054064009F826A /* ParseFacebookUtilsV4.framework */,
+				1CAE00311C054064009F826A /* ParseTwitterUtils.framework */,
+				1CAE00321C054064009F826A /* ParseUI.framework */,
+			);
+			path = "parse-library-1.10.0 (2)";
+			sourceTree = "<group>";
+		};
+		1CAEFFC71C0538A0009F826A = {
+			isa = PBXGroup;
+			children = (
+				1CAEFFD21C0538A0009F826A /* BengaliMatrimony */,
+				1CAE00261C053BC1009F826A /* frameworks */,
+				1CAEFFE71C0538A1009F826A /* BengaliMatrimonyTests */,
+				1CAEFFF21C0538A1009F826A /* BengaliMatrimonyUITests */,
+				1CAEFFD11C0538A0009F826A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CAEFFD11C0538A0009F826A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CAEFFD01C0538A0009F826A /* BengaliMatrimony.app */,
+				1CAEFFE41C0538A1009F826A /* BengaliMatrimonyTests.xctest */,
+				1CAEFFEF1C0538A1009F826A /* BengaliMatrimonyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CAEFFD21C0538A0009F826A /* BengaliMatrimony */ = {
+			isa = PBXGroup;
+			children = (
+				1CAEFFD31C0538A0009F826A /* AppDelegate.swift */,
+				1CAEFFD51C0538A0009F826A /* ViewController.swift */,
+				1CAE00011C0538E6009F826A /* Login.swift */,
+				1CAE002A1C053E0C009F826A /* Signup.swift */,
+				1CAE00031C053903009F826A /* NewsFeed.swift */,
+				1CAEFFD71C0538A0009F826A /* Main.storyboard */,
+				1CAE00291C053D25009F826A /* images */,
+				1CAEFFDA1C0538A0009F826A /* Assets.xcassets */,
+				1CAEFFDC1C0538A0009F826A /* LaunchScreen.storyboard */,
+				1CAEFFDF1C0538A0009F826A /* Info.plist */,
+			);
+			path = BengaliMatrimony;
+			sourceTree = "<group>";
+		};
+		1CAEFFE71C0538A1009F826A /* BengaliMatrimonyTests */ = {
+			isa = PBXGroup;
+			children = (
+				1CAEFFE81C0538A1009F826A /* BengaliMatrimonyTests.swift */,
+				1CAEFFEA1C0538A1009F826A /* Info.plist */,
+			);
+			path = BengaliMatrimonyTests;
+			sourceTree = "<group>";
+		};
+		1CAEFFF21C0538A1009F826A /* BengaliMatrimonyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1CAEFFF31C0538A1009F826A /* BengaliMatrimonyUITests.swift */,
+				1CAEFFF51C0538A1009F826A /* Info.plist */,
+			);
+			path = BengaliMatrimonyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CAEFFCF1C0538A0009F826A /* BengaliMatrimony */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CAEFFF81C0538A1009F826A /* Build configuration list for PBXNativeTarget "BengaliMatrimony" */;
+			buildPhases = (
+				1CAEFFCC1C0538A0009F826A /* Sources */,
+				1CAEFFCD1C0538A0009F826A /* Frameworks */,
+				1CAEFFCE1C0538A0009F826A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BengaliMatrimony;
+			productName = BengaliMatrimony;
+			productReference = 1CAEFFD01C0538A0009F826A /* BengaliMatrimony.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CAEFFE31C0538A1009F826A /* BengaliMatrimonyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CAEFFFB1C0538A1009F826A /* Build configuration list for PBXNativeTarget "BengaliMatrimonyTests" */;
+			buildPhases = (
+				1CAEFFE01C0538A1009F826A /* Sources */,
+				1CAEFFE11C0538A1009F826A /* Frameworks */,
+				1CAEFFE21C0538A1009F826A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CAEFFE61C0538A1009F826A /* PBXTargetDependency */,
+			);
+			name = BengaliMatrimonyTests;
+			productName = BengaliMatrimonyTests;
+			productReference = 1CAEFFE41C0538A1009F826A /* BengaliMatrimonyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1CAEFFEE1C0538A1009F826A /* BengaliMatrimonyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CAEFFFE1C0538A1009F826A /* Build configuration list for PBXNativeTarget "BengaliMatrimonyUITests" */;
+			buildPhases = (
+				1CAEFFEB1C0538A1009F826A /* Sources */,
+				1CAEFFEC1C0538A1009F826A /* Frameworks */,
+				1CAEFFED1C0538A1009F826A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CAEFFF11C0538A1009F826A /* PBXTargetDependency */,
+			);
+			name = BengaliMatrimonyUITests;
+			productName = BengaliMatrimonyUITests;
+			productReference = 1CAEFFEF1C0538A1009F826A /* BengaliMatrimonyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CAEFFC81C0538A0009F826A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "shaun Haque";
+				TargetAttributes = {
+					1CAEFFCF1C0538A0009F826A = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = QPUL3KUF52;
+					};
+					1CAEFFE31C0538A1009F826A = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = QPUL3KUF52;
+						TestTargetID = 1CAEFFCF1C0538A0009F826A;
+					};
+					1CAEFFEE1C0538A1009F826A = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = QPUL3KUF52;
+						TestTargetID = 1CAEFFCF1C0538A0009F826A;
+					};
+				};
+			};
+			buildConfigurationList = 1CAEFFCB1C0538A0009F826A /* Build configuration list for PBXProject "BengaliMatrimony" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CAEFFC71C0538A0009F826A;
+			productRefGroup = 1CAEFFD11C0538A0009F826A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CAEFFCF1C0538A0009F826A /* BengaliMatrimony */,
+				1CAEFFE31C0538A1009F826A /* BengaliMatrimonyTests */,
+				1CAEFFEE1C0538A1009F826A /* BengaliMatrimonyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CAEFFCE1C0538A0009F826A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CAE00281C053CEE009F826A /* datingappbackgrond.jpg in Resources */,
+				1CAEFFDE1C0538A0009F826A /* LaunchScreen.storyboard in Resources */,
+				1CAEFFDB1C0538A0009F826A /* Assets.xcassets in Resources */,
+				1CAEFFD91C0538A0009F826A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CAEFFE21C0538A1009F826A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CAEFFED1C0538A1009F826A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CAEFFCC1C0538A0009F826A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CAE00021C0538E6009F826A /* Login.swift in Sources */,
+				1CAE002B1C053E0C009F826A /* Signup.swift in Sources */,
+				1CAEFFD61C0538A0009F826A /* ViewController.swift in Sources */,
+				1CAE00041C053903009F826A /* NewsFeed.swift in Sources */,
+				1CAEFFD41C0538A0009F826A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CAEFFE01C0538A1009F826A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CAEFFE91C0538A1009F826A /* BengaliMatrimonyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CAEFFEB1C0538A1009F826A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CAEFFF41C0538A1009F826A /* BengaliMatrimonyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CAEFFE61C0538A1009F826A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CAEFFCF1C0538A0009F826A /* BengaliMatrimony */;
+			targetProxy = 1CAEFFE51C0538A1009F826A /* PBXContainerItemProxy */;
+		};
+		1CAEFFF11C0538A1009F826A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CAEFFCF1C0538A0009F826A /* BengaliMatrimony */;
+			targetProxy = 1CAEFFF01C0538A1009F826A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1CAEFFD71C0538A0009F826A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CAEFFD81C0538A0009F826A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1CAEFFDC1C0538A0009F826A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CAEFFDD1C0538A0009F826A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1CAE00001C0538A1009F826A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BengaliMatrimonyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tk.shaunhaque.BengaliMatrimonyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BengaliMatrimony;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+		1CAEFFF61C0538A1009F826A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1CAEFFF71C0538A1009F826A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CAEFFF91C0538A1009F826A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BengaliMatrimony/parse-library-1.10.0",
+					"$(PROJECT_DIR)/parse-library-1.10.0",
+					"(2)",
+				);
+				INFOPLIST_FILE = BengaliMatrimony/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tk.shaunhaque.BengaliMatrimony;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1CAEFFFA1C0538A1009F826A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BengaliMatrimony/parse-library-1.10.0",
+					"$(PROJECT_DIR)/parse-library-1.10.0",
+					"(2)",
+				);
+				INFOPLIST_FILE = BengaliMatrimony/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tk.shaunhaque.BengaliMatrimony;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1CAEFFFC1C0538A1009F826A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BengaliMatrimonyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tk.shaunhaque.BengaliMatrimonyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BengaliMatrimony.app/BengaliMatrimony";
+			};
+			name = Debug;
+		};
+		1CAEFFFD1C0538A1009F826A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BengaliMatrimonyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tk.shaunhaque.BengaliMatrimonyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BengaliMatrimony.app/BengaliMatrimony";
+			};
+			name = Release;
+		};
+		1CAEFFFF1C0538A1009F826A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BengaliMatrimonyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tk.shaunhaque.BengaliMatrimonyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BengaliMatrimony;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CAEFFCB1C0538A0009F826A /* Build configuration list for PBXProject "BengaliMatrimony" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CAEFFF61C0538A1009F826A /* Debug */,
+				1CAEFFF71C0538A1009F826A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CAEFFF81C0538A1009F826A /* Build configuration list for PBXNativeTarget "BengaliMatrimony" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CAEFFF91C0538A1009F826A /* Debug */,
+				1CAEFFFA1C0538A1009F826A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1CAEFFFB1C0538A1009F826A /* Build configuration list for PBXNativeTarget "BengaliMatrimonyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CAEFFFC1C0538A1009F826A /* Debug */,
+				1CAEFFFD1C0538A1009F826A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1CAEFFFE1C0538A1009F826A /* Build configuration list for PBXNativeTarget "BengaliMatrimonyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CAEFFFF1C0538A1009F826A /* Debug */,
+				1CAE00001C0538A1009F826A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CAEFFC81C0538A0009F826A /* Project object */;
+}
